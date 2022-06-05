@@ -226,3 +226,22 @@ ol li:last-child:before {
   display: table-cell;
   vertical-align: middle;
 }
+
+.education__title {
+  margin: 50px auto 20px;
+}
+
+.education__diploms {
+  display: none;
+}
+
+.education__diploms-item {
+  max-height: 200px;
+}
+
+.open {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  column-gap: 10px;
+  row-gap: 10px;
+}
