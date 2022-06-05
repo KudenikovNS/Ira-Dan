@@ -1,0 +1,228 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap");
+
+body {
+  background-color: #111111;
+  font-size: 18px;
+  color: #fff;
+}
+
+.page__container {
+  max-width: 1356px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  background-image: url(../image/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .nav-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+} */
+
+/* .contacts-social {
+  display: flex;
+  padding-top: 30px;
+  column-gap: 80px;
+  padding-left: 50px;
+} */
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 80px;
+  padding-top: 30px;
+}
+
+.nav__link {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.header__title {
+  /* width: 961px; */
+  font-family: "Garamond";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 120%;
+  text-align: center;
+  margin: 260px auto 220px; /* По макету снизу 420px уменьшил на 200 */
+}
+
+/* Section INFO */
+.info {
+  text-align: center;
+}
+.info__marks-img {
+  margin: 120px auto 60px;
+}
+.info__text {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 130%;
+  max-width: 856px;
+  margin: 0 auto 95px;
+}
+
+.info__video-img {
+  display: grid;
+  grid-template-columns: repeat(3, 416px);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.video {
+  width: 416px;
+  /* height: 386px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.info__post {
+  width: 416px;
+  height: 414px;
+}
+
+.info__nav-icon {
+  margin: 50px auto 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation__icon {
+  width: 120px;
+}
+
+.situations {
+  display: grid;
+  grid-template-columns: repeat(3, 416px);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.situations__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.situations__icon {
+  background-color: #fff;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.situations__title {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 85%;
+}
+
+.consultation {
+  display: flex;
+  flex-direction: column;
+}
+
+.situations__subtitle {
+  padding: 0 0 0 0;
+}
+
+.consultation__title {
+  margin: 85px auto 40px;
+}
+
+.consultation__text {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+ul {
+  list-style-type: none;
+  counter-reset: num;
+  position: relative;
+  margin: 0 0 0 60px;
+  padding: 15px 0 5px 0;
+  font-size: 16px;
+}
+ul li {
+  position: relative;
+  margin: 0 0 0 0;
+  padding: 0 0 10px 0;
+  line-height: 1.4;
+}
+ul li:after {
+  content: counter(num);
+  counter-increment: num;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -45px;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 50%;
+  border: 1px solid #ef6780;
+}
+
+/* Вертикальная линия */
+ul:before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  bottom: 15px;
+  left: -30px;
+  width: 1px;
+  border-left: 1px solid #ef6780;
+}
+/* Скрытие линии у последнего li */
+ol li:last-child:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -38px;
+  width: 28px;
+  background: #fff;
+}
+
+.consultation__table {
+  display: grid;
+  grid-template-columns: repeat(3, 416px);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.consultation__table-item * {
+  border: 5px solid rgb(255, 255, 255);
+  height: 95px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
