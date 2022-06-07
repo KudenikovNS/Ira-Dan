@@ -230,18 +230,54 @@ ol li:last-child:before {
 .education__title {
   margin: 50px auto 20px;
 }
+/* Для всплытия дипломов */
+/* 
 
 .education__diploms {
-  display: none;
-}
-
-.education__diploms-item {
-  max-height: 200px;
-}
-
-.open {
   display: grid;
   grid-template-columns: repeat(6, auto);
   column-gap: 10px;
   row-gap: 10px;
 }
+
+.open {
+  display: none;
+} */
+
+/* .education {
+  max-width: auto;
+  padding: 0 15px;
+  position: relative;
+  margin: 0 auto;
+} */
+
+.swiper-button-next::after {
+  color: red;
+  font-size: 80px;
+}
+.swiper-button-prev::after {
+  color: #fff;
+  font-size: 80px;
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.swiper {
+  margin: 0 auto;
+  height: 550px;
+  /* width: auto; */
+}
+
+.education__diploms-item {
+  max-height: 300px;
+}
+
+/* .swiper-slide {
+  width: auto !important;
+} */
