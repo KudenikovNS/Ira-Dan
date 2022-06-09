@@ -1,54 +1,51 @@
-/* Для осуществления всплытия дипломов */
-/* const diploms = document.querySelector(".education__diploms");
-const openDiploms = document.querySelector(".education__title");
+/* let position = 0;
+const slidesToShow = 2;
+const slidesToScroll = 1;
+const container = document.querySelector(".slider-container");
+const track = document.querySelector(".slider-track");
+const btnPrev = document.querySelector(".btn-prev");
+const btnNext = document.querySelector(".btn-next");
+const items = document.querySelectorAll(".slider-item");
+const itemsCount = items.length;
+const itemWidth = container.clientWidth / slidesToShow;
+const movePosition = slidesToScroll * itemWidth;
 
-openDiploms.onclick = () => {
-  diploms.classList.toggle("open");
-}; */
-
-/* const swiper = new Swiper(".swiper", {
-  // Optional parameters
-  direction: "vertical",
-  loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev", 
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
-  },
+items.forEach((item) => {
+  item.style.minWidth = `${itemWidth}px`;
 });
- */
 
-/* new Swiper(".swiper", {
-  //Стрелки
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  //Навигация
-  //Буллеты, текущее положение, прогрессбар
-  pagination: {
-    el: ".swiper-pagination",
-    //Буллиты
-    clickable: true,
-  },
-  //Количество отображений слайдев
-  //!!! Так же можно поставить не целой число, а 1.5 например
-  //Данное решение можно будет использовать для реализации на десктопе первого слайдера
-  slidesPerView: 1,
-  //Делаем бесконечную прокрутку
-  loop: true,
-}); */
+btnNext.addEventListener("click", () => {
+  const itemsLeft =
+    itemsCount - (Math.abs(position) + slidesToShow * itemWidth) / itemWidth;
+
+  position -=
+    itemsLeft >= slidesToScroll ? movePosition : itemsLeft * itemWidth;
+
+  setPosition();
+  checkBtns();
+});
+
+btnPrev.addEventListener("click", () => {
+  const itemsLeft = Math.abs(position) / itemWidth;
+
+  position +=
+    itemsLeft >= slidesToScroll ? movePosition : itemsLeft * itemWidth;
+
+  setPosition();
+  checkBtns();
+});
+
+const setPosition = () => {
+  track.style.transform = `translateX(${position}px)`;
+};
+
+const checkBtns = () => {
+  btnPrev.disabled = position === 0;
+  btnNext.disabled = position <= -(itemsCount - slidesToShow) * itemWidth;
+};
+
+checkBtns();
+ */
 
 new Swiper(".swiper", {
   //Стрелки
@@ -68,11 +65,11 @@ new Swiper(".swiper", {
   //Данное решение можно будет использовать для реализации на десктопе первого слайдера
   //slidesPerView: 6,
   //Делаем бесконечную прокрутку
-  /*   : "auto",
- loopedSlides
-  /* autoHeight: true, */
+  //   : "auto",
+  //loopedSlides
+  // autoHeight: true,
   spaceBetween: 30,
   centeredSliders: true,
   loop: true,
-  slidesPerView: 3.5,
+  slidesPerView: "auto",
 });

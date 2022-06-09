@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap");
 
 body {
-  background-color: #111111;
+  background-color: #967d7d;
   font-size: 18px;
   color: #fff;
 }
@@ -16,12 +16,13 @@ body {
 
 /* Header */
 .header {
-  background-image: url(../image/header.jpg);
+  background-image: url(../image/Header/forHeader.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
+  /* opacity: 0.8; */
 }
 
 /* .nav-container {
@@ -65,12 +66,17 @@ body {
   margin: 260px auto 220px; /* По макету снизу 420px уменьшил на 200 */
 }
 
+.header_size {
+  margin: 160px 0 220px 30px;
+  width: 750px;
+}
+
 /* Section INFO */
 .info {
   text-align: center;
 }
 .info__marks-img {
-  margin: 120px auto 60px;
+  margin: 60px auto 30px;
 }
 .info__text {
   font-family: "Cormorant Garamond";
@@ -78,8 +84,12 @@ body {
   font-weight: 700;
   font-size: 27px;
   line-height: 130%;
-  max-width: 856px;
-  margin: 0 auto 95px;
+  max-width: auto;
+  margin: 0 auto 10px;
+}
+
+.info__marks-img:last-child {
+  margin-bottom: 85px;
 }
 
 .info__video-img {
@@ -105,11 +115,12 @@ body {
 .info__nav-icon {
   margin: 50px auto 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  width: 700px;
 }
 
 .navigation__icon {
-  width: 120px;
+  width: auto;
 }
 
 .situations {
@@ -228,56 +239,54 @@ ol li:last-child:before {
 }
 
 .education__title {
-  margin: 50px auto 20px;
-}
-/* Для всплытия дипломов */
-/* 
-
-.education__diploms {
-  display: grid;
-  grid-template-columns: repeat(6, auto);
-  column-gap: 10px;
-  row-gap: 10px;
+  margin: 50px auto 5px;
 }
 
-.open {
-  display: none;
-} */
-
-/* .education {
-  max-width: auto;
-  padding: 0 15px;
-  position: relative;
-  margin: 0 auto;
-} */
-
-.swiper-button-next::after {
-  color: red;
-  font-size: 80px;
-}
-.swiper-button-prev::after {
-  color: #fff;
-  font-size: 80px;
+.footer {
+  display: flex;
+  padding: 50px 0;
+  justify-content: space-around;
 }
 
-.swiper-pagination-bullet {
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
-  font-size: 14px;
-  background-color: #fff;
+.contacts__title {
+  font-family: "Garamond";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+.contacts__items {
+  display: flex;
+  flex-direction: column;
+}
+.contacts__item {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #ffffff;
+  padding-bottom: 15px;
 }
 
-.swiper {
-  margin: 0 auto;
-  height: 550px;
-  /* width: auto; */
+.contacts__item-link {
+  color: #ffffff;
 }
 
-.education__diploms-item {
-  max-height: 300px;
+.navigation {
 }
-
-/* .swiper-slide {
-  width: auto !important;
-} */
+.navigation__title {
+  font-family: "Garamond";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: #ffffff;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.navigation__icon {
+  padding-left: 15px;
+}
