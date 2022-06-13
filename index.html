@@ -12,63 +12,108 @@
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     /> -->
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/buttom.css" />
     <title>Психолог Ирина Дан</title>
   </head>
   <body>
     <div class="page__container">
-      <header class="header">
+      <header class="header" id="header">
         <nav class="nav">
-          <a class="nav__link" href="#">Главная</a>
-          <a class="nav__link" href="#">Обо мне</a>
-          <a class="nav__link" href="#">Публикации</a>
-          <img class="icon" src="./image/Header/header_nav.svg" alt="Omega" />
-          <a class="nav__link" href="#">Направления</a>
-          <a class="nav__link" href="#">Консультации</a>
+          <a class="nav__link" href="#header">Главная</a>
+          <a class="nav__link" href="#info">Обо мне</a>
+          <a class="nav__link close" href="#">Публикации</a>
+          <!--           <img class="icon" src="./image/Header/header_nav.svg" alt="Omega" /> -->
+          <a class="nav__link" href="#situations">Направления</a>
+          <a class="nav__link" href="#consultation">Консультации</a>
           <a class="nav__link" href="#">Контакты</a>
         </nav>
+        <!--         <a class="green" href="https://t.me/irdan_psy/" target="_blank"
+          >Записаться на консультацию</a
+        > -->
+
+        <!--         <a href="https://t.me/irdan_psy/" class="a-btn-3" target="_blank">
+          <span class="a-btn-3-text">Стоимость</span>
+          <img
+            class="a-btn-3-slide-text"
+            src="./image/Social-icon/Telegram_32px.png"
+          />
+          <span class="a-btn-3-icon-right"><span></span></span>
+        </a> -->
+
+        <!--         <a href="https://t.me/irdan_psy/" class="button2" target="_blank">
+          <span class="a-btn-3-text">Стоимость</span>
+          <img
+            class="a-btn-3-slide-text"
+            src="./image/Social-icon/Telegram_32px.png"
+          />
+          <span class="a-btn-3-icon-right"><span></span></span>
+        </a> -->
+
+        <!--         <a href="https://t.me/irdan_psy/" class="glo" target="_blank"
+          >Записаться на консультацию</a
+        >
+
+        <a
+          href="https://t.me/irdan_psy/"
+          class="floating-button"
+          target="_blank"
+          >Записаться на консультацию</a
+        >
+
+        <a href="https://t.me/irdan_psy/" class="pulse" target="_blank"
+          >Записаться на консультацию</a
+        > -->
+
+        <a href="https://t.me/irdan_psy/" class="button" target="_blank"
+          >Записаться на консультацию</a
+        >
+
         <h1 class="header__title header_size">
-          Ирина Дан Психолог С заботой о вашем ментальном состоянии
+          Ирина Дан Психолог <br />
+          С заботой о вашем ментальном состоянии
         </h1>
       </header>
       <main>
-        <section class="info">
+        <section class="info" id="info">
           <img
             class="info__marks-img"
             src="./image/Info/marks.svg"
             alt="Кавычки"
           />
-          <p class="info__text">
-            Приветствую Вас на моём сайте! Меня зовут Ирина Дан.
-          </p>
-          <p class="info__text">
-            Я практикующий психолог, работаю в интеграитвном подходе и
-            специализируюсь в когнитивно-поведенческой психотерапии.
-          </p>
-          <p class="info__text">
-            Я помогу вам разобраться в проблемах связанных с кризисами и
-            непониманием в личных отношениях в парах, с пожилыми родителями,
-            детьми и подростками.
-          </p>
-          <p class="info__text">
-            А так же апатией, тревожностью, паническими атаками, депрессивными
-            состояниями.
-          </p>
-          <p class="info__text">
-            Если Вы зашли на мой сайт, значит у вас возникла мысль обратиться к
-            психологу.
-          </p>
-          <p class="info__text">
-            Навалился груз проблем и не знаете, как справляться?
-          </p>
-          <p class="info__text">
-            Не откладывайте. Не ждите, когда этот ком Вас накроет! Чем раньше вы
-            начнете делать шаги по изменению свой жизни, тем быстрее и дольше
-            она будет дарить Вам радость и удовольствие!
-          </p>
-          <p class="info__text">
-            Чем раньше вы начнете делать шаги по изменению свой жизни, тем
-            быстрее и дольше она будет дарить Вам радость и удовольствие!
-          </p>
+          <div class="proba">
+            <p class="info__text">
+              Приветствую Вас на моём сайте! Меня зовут Ирина Дан.
+            </p>
+            <p class="info__text">
+              Я практикующий психолог, работаю в интеграитвном подходе и
+              специализируюсь в когнитивно-поведенческой психотерапии.
+            </p>
+            <p class="info__text">
+              Я помогу вам разобраться в проблемах связанных с кризисами и
+              непониманием в личных отношениях в парах, с пожилыми родителями,
+              детьми и подростками.
+            </p>
+            <p class="info__text">
+              А так же апатией, тревожностью, паническими атаками, депрессивными
+              состояниями.
+            </p>
+            <p class="info__text">
+              Если Вы зашли на мой сайт, значит у вас возникла мысль обратиться
+              к психологу.
+            </p>
+            <p class="info__text">
+              Навалился груз проблем и не знаете, как справляться?
+            </p>
+            <p class="info__text">
+              Не откладывайте. Не ждите, когда этот ком Вас накроет! Чем раньше
+              вы начнете делать шаги по изменению свой жизни, тем быстрее и
+              дольше она будет дарить Вам радость и удовольствие!
+            </p>
+            <p class="info__text">
+              Чем раньше вы начнете делать шаги по изменению свой жизни, тем
+              быстрее и дольше она будет дарить Вам радость и удовольствие!
+            </p>
+          </div>
           <div class="info__video-img">
             <iframe
               class="video"
@@ -149,7 +194,7 @@
             /></a>
           </nav>
         </section>
-        <section class="situations">
+        <section class="situations" id="situations">
           <div class="situations__item">
             <h3 class="situations__title">
               Апатия, тревожность, депрессивные состояния
@@ -191,8 +236,8 @@
           <div class="situations__item">
             <h3 class="situations__title">Выстраивание отношений с детьми</h3>
             <p class="situations__subtitle">
-              Понимание истоков поведения детей дошкольного и школьного
-              возраста. Налаживание отношений с детьми в семье
+              Понимание истоков поведения детей. Налаживание отношений с детьми
+              в семье
             </p>
             <img
               src="./image/Situations/situations_4.png"
@@ -226,7 +271,7 @@
           </div>
         </section>
 
-        <section class="consultation">
+        <section class="consultation" id="consultation">
           <h2 class="header__title consultation__title">
             Психологическое консультирование онлайн
           </h2>
@@ -619,31 +664,39 @@
           <p class="work-time__item">с 10:00 до 19:00 (пн-пт)</p>
           <p class="work-time__item">с 10:00 до 18:00 (сб-вс)</p>
         </div> -->
+
+        <a
+          href="https://t.me/irdan_psy/"
+          class="button button__div"
+          target="_blank"
+          >Записаться на консультацию</a
+        >
+
         <nav class="navigation">
           <h3 class="navigation__title">Социальные сети</h3>
           <a
             class="navigation__icon"
             href="https://www.instagram.com/irdan_psy/"
             target="_blank"
-            ><img src="./image/Social-icon/Instagram_64px.png" alt="Instagram"
+            ><img src="./image/Social-icon/Instagram_32px.png" alt="Instagram"
           /></a>
           <a
             class="navigation__icon"
             href="https://www.facebook.com/psy.academician/"
             target="_blank"
-            ><img src="./image/Social-icon/facebook_64px.png" alt="Facebook"
+            ><img src="./image/Social-icon/facebook_32px.png" alt="Facebook"
           /></a>
           <a
             class="navigation__icon"
             href="https://vt.tiktok.com/ZSdyPUQHV/"
             target="_blank"
-            ><img src="./image/Social-icon/tikTok_64px.png" alt="Tik-Tok"
+            ><img src="./image/Social-icon/tikTok_32px.png" alt="Tik-Tok"
           /></a>
           <a
             class="navigation__icon"
             href="https://www.youtube.com/channel/UCmuan8nmML-u91NEgtevegg/"
             target="_blank"
-            ><img src="./image/Social-icon/YouTube_64px.png" alt="YouTube"
+            ><img src="./image/Social-icon/YouTube_32px.png" alt="YouTube"
           /></a>
         </nav>
       </footer>
