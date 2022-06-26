@@ -68,7 +68,7 @@ body {
   font-size: 60px;
   line-height: 120%;
   text-align: center;
-  margin: 260px auto 120px; /* По макету снизу 420px уменьшил на 200 */
+  margin: 260px auto 145px; /* По макету снизу 420px уменьшил на 200 */
 }
 
 .header_size {
@@ -181,7 +181,7 @@ ul {
   position: relative;
   margin: 0 0 0 60px;
   padding: 15px 0 5px 0;
-  font-size: 16px;
+  font-size: 18px;
 }
 ul li {
   position: relative;
@@ -408,7 +408,7 @@ a.glo:hover {
   text-align: center;
   text-decoration: none;
   width: 300px;
-  margin: 100px 0px 0 260px;
+  margin: 75px 0px 0 260px;
 }
 @keyframes glowing {
   0% {
