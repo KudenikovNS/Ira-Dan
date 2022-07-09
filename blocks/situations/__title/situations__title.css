@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 23px;
-  margin-bottom: 5px;
+  margin: 0 auto 5px;
 }
 
 @media screen and (min-width: 1024px) {

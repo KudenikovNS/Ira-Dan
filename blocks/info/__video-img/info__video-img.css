@@ -1,6 +1,6 @@
 .info__video-img {
   display: grid;
-  grid-template-columns: repeat(1, 320px);
+  grid-template-columns: repeat(1, auto);
   row-gap: 10px;
   margin: 0 auto;
 }

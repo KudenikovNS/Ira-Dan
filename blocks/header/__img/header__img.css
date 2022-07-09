@@ -2,10 +2,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  max-width: 320px;
+  height: 100%;
+  width: auto;
 }
-
-/* .header__img {
-  position: relative;
-}
- */

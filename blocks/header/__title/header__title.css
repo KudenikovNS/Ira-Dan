@@ -1,10 +1,25 @@
 .header__title {
+  font-family: "Garamond";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  width: 160px;
+  text-align: center;
   margin: 5px 0 15px 10px;
+}
+
+@media screen and (min-width: 414px) {
+  .header__title {
+    width: 200px;
+    font-size: 20px;
+    margin: 40px 0px 0 25px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .header__title {
-    margin: 60px 0 150px 30px;
-    width: 750px;
+    font-size: 54px;
+    line-height: 120%;
+    margin: 260px auto 145px;
   }
 }

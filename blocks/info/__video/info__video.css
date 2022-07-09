@@ -5,6 +5,13 @@
   background-position: center;
 }
 
+@media screen and (min-width: 414px) {
+  .info__video {
+    width: 413px;
+    height: 230px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .info__video {
     width: 416px;
