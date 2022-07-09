@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Nikita Kudenikov" />
-    <link rel="stylesheet" href="./index.css" />
     <title>Психолог Ирина Дан</title>
   </head>
   <body class="page">
@@ -13,7 +12,7 @@
       <header class="header" id="header">
         <img
           class="header__img"
-          src="./image/Header/forHeader2.jpg"
+          src="<%=require('./image/Header/forHeader2.jpg')%>"
           alt="Обложка"
         />
         <div class="header__container">
@@ -43,7 +42,11 @@
       </header>
       <main>
         <section class="info" id="info">
-          <img class="info__marks" src="./image/Info/marks.svg" alt="Кавычки" />
+          <img
+            class="info__marks"
+            src="<%=require('./image/Info/marks.svg')%>"
+            alt="Кавычки"
+          />
           <div class="info__container">
             <p class="info__text">
               Приветствую Вас на моём сайте! Меня зовут Ирина Дан.
@@ -103,17 +106,17 @@
               allowfullscreen
             ></iframe>
             <img
-              src="./image/Info/Instagram__post1.png"
+              src="<%=require('./image/Info/Instagram__post1.png')%>"
               alt="Счастливые» семьи"
               class="info__post"
             />
             <img
-              src="./image/Info/Instagram__post2.png"
+              src="<%=require('./image/Info/Instagram__post2.png')%>"
               alt="Родительские манипуляции"
               class="info__post"
             />
             <img
-              src="./image/Info/Instagram__post3.png"
+              src="<%=require('./image/Info/Instagram__post3.png')%>"
               alt="Выход из созависимости"
               class="info__post"
             />
@@ -124,29 +127,37 @@
               href="https://www.instagram.com/irdan_psy/"
               target="_blank"
               ><img
-                src="./image/Social-icon/Instagram_64px.png"
+                src="<%=require('./image/Social-icon/Instagram_64px.png')%>"
                 alt="Instagram"
             /></a>
             <a class="info__icon" href="https://t.me/irdan_psy/" target="_blank"
-              ><img src="./image/Social-icon/Telegram_64px.png" alt="Telegram"
+              ><img
+                src="<%=require('./image/Social-icon/Telegram_64px.png')%>"
+                alt="Telegram"
             /></a>
             <a
               class="info__icon"
               href="https://www.facebook.com/psy.academician/"
               target="_blank"
-              ><img src="./image/Social-icon/facebook_64px.png" alt="Facebook"
+              ><img
+                src="<%=require('./image/Social-icon/facebook_64px.png')%>"
+                alt="Facebook"
             /></a>
             <a
               class="info__icon"
               href="https://vt.tiktok.com/ZSdyPUQHV/"
               target="_blank"
-              ><img src="./image/Social-icon/tikTok_64px.png" alt="Tik-Tok"
+              ><img
+                src="<%=require('./image/Social-icon/tikTok_64px.png')%>"
+                alt="Tik-Tok"
             /></a>
             <a
               class="info__icon"
               href="https://www.youtube.com/channel/UCmuan8nmML-u91NEgtevegg/"
               target="_blank"
-              ><img src="./image/Social-icon/YouTube_64px.png" alt="YouTube"
+              ><img
+                src="<%=require('./image/Social-icon/YouTube_64px.png')%>"
+                alt="YouTube"
             /></a>
           </nav>
         </section>
@@ -160,7 +171,7 @@
               реабилитацию
             </p>
             <img
-              src="./image/Situations/situations_1.png"
+              src="<%=require('./image/Situations/situations_1.png')%>"
               alt="Головной мозг иконки от Smashicons - Flaticon"
               class="situations__icon"
             />
@@ -173,7 +184,7 @@
               Сепарация от родителей, отстаивание своих психологических границ
             </p>
             <img
-              src="./image/Situations/situations_2.png"
+              src="<%=require('./image/Situations/situations_2.png')%>"
               alt="Иконка от Freepik - Flaticon"
               class="situations__icon"
             />
@@ -184,7 +195,7 @@
               Созависимость, семейные кризисы, угасание чувств
             </p>
             <img
-              src="./image/Situations/situations_3.png"
+              src="<%=require('./image/Situations/situations_3.png')%>"
               alt="Иконка от justicon - Flaticon"
               class="situations__icon"
             />
@@ -196,7 +207,7 @@
               в семье
             </p>
             <img
-              src="./image/Situations/situations_4.png"
+              src="<%=require('./image/Situations/situations_4.png')%>"
               alt="Иконка от Freepik - Flaticon"
               class="situations__icon"
             />
@@ -208,7 +219,7 @@
               Полюбить себя. Жить в удовольствие
             </p>
             <img
-              src="./image/Situations/situations_5.png"
+              src="<%=require('./image/Situations/situations_5.png)%>"
               alt="Иконка от Freepik - Flaticon"
               class="situations__icon"
             />
@@ -220,7 +231,7 @@
               вперед
             </p>
             <img
-              src="./image/Situations/situations_6.png"
+              src="<%=require('s/image/Situations/situations_6.png)%>"
               alt="Иконка от Freepik - Flaticon"
               class="situations__icon"
             />
@@ -305,154 +316,154 @@
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education1.jpg"
+                  src="<%=require('./image/Educations/education1.jpg')%>"
                   alt="Диплом № 1"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education2.jpg"
+                  src="<%=require('./image/Educations/education2.jpg')%>"
                   alt="Диплом № 2"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education3.jpg"
+                  src="<%=require('./image/Educations/education3.jpg')%>"
                   alt="Диплом № 3"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education4.jpg"
+                  src="<%=require('./image/Educations/education4.jpg')%>"
                   alt="Диплом № 4"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education5.jpg"
+                  src="<%=require('./image/Educations/education5.jpg')%>"
                   alt="Диплом № 5"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education6.jpg"
+                  src="<%=require('./image/Educations/education6.jpg')%>"
                   alt="Диплом № 6"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education7.jpg"
+                  src="<%=require('./image/Educations/education7.jpg')%>"
                   alt="Диплом № 7"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education8.jpg"
+                  src="<%=require('./image/Educations/education8.jpg')%>"
                   alt="Диплом № 8"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education9.jpg"
+                  src="<%=require('./image/Educations/education9.jpg')%>"
                   alt="Диплом № 9"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education10.jpg"
+                  src="<%=require('./image/Educations/education10.jpg')%>"
                   alt="Диплом № 10"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education11.jpg"
+                  src="<%=require('./image/Educations/education11.jpg')%>"
                   alt="Диплом № 11"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education12.jpg"
+                  src="<%=require('./image/Educations/education12.jpg')%>"
                   alt="Диплом № 12"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education13.png"
+                  src="<%=require('./image/Educations/education13.png')%>"
                   alt="Диплом № 13"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education14.png"
+                  src="<%=require('./image/Educations/education14.png')%>"
                   alt="Диплом № 14"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education15.png"
+                  src="<%=require('./image/Educations/education15.png')%>"
                   alt="Диплом № 15"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education16.jpg"
+                  src="<%=require('./image/Educations/education16.jpg')%>"
                   alt="Диплом № 16"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education17.jpg"
+                  src="<%=require('./image/Educations/education17.jpg')%>"
                   alt="Диплом № 17"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education18.jpg"
+                  src="<%=require('./image/Educations/education18.jpg')%>"
                   alt="Диплом № 18"
                 />
               </div>
               <div class="swiper-slide swiper-slide-size">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education19.jpg"
+                  src="<%=require('./image/Educations/education19.jpg')%>"
                   alt="Диплом № 19"
                 />
               </div>
               <div class="swiper-slide swiper-slide-size">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education20.jpg"
+                  src="<%=require('./image/Educations/education20.jpg')%>"
                   alt="Диплом № 20"
                 />
               </div>
               <div class="swiper-slide swiper-slide-size">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education21.jpg"
+                  src="<%=require('./image/Educations/education21.jpg')%>"
                   alt="Диплом № 21"
                 />
               </div>
               <div class="swiper-slide swiper-slide-size">
                 <img
                   class="education__diploms-item"
-                  src="./image/Educations/education22.jpg"
+                  src="<%=require('./image/Educations/education22.jpg')%>"
                   alt="Диплом № 22"
                 />
               </div>
@@ -472,98 +483,98 @@
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Rewiews/review1.jpg"
+                  src="<%=require('./image/Rewiews/review1.jpg')%>"
                   alt="Отзыв № 1"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Rewiews/review2.jpg"
+                  src="<%=require('./image/Rewiews/review2.jpg')%>"
                   alt="Отзыв № 2"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Rewiews/review3.jpg"
+                  src="<%=require('./image/Rewiews/review3.jpg')%>"
                   alt="Отзыв № 3"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Rewiews/review4.jpg"
+                  src="<%=require('./image/Rewiews/review4.jpg')%>"
                   alt="Отзыв № 4"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Rewiews/review5.jpg"
+                  src="<%=require('./image/Rewiews/review5.jpg')%>"
                   alt="Отзыв № 5"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Rewiews/review8.jpg"
+                  src="<%=require('./image/Rewiews/review8.jpg')%>"
                   alt="Отзыв № 8"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Rewiews/review9.jpg"
+                  src="<%=require('./image/Rewiews/review9.jpg')%>"
                   alt="Отзыв № 9"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Rewiews/review10.jpg"
+                  src="<%=require('./image/Rewiews/review10.jpg')%>"
                   alt="Отзыв № 10"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Rewiews/review11.jpg"
+                  src="<%=require('./image/Rewiews/review11.jpg')%>"
                   alt="Отзыв № 11"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Rewiews/review12.jpg"
+                  src="<%=require('./image/Rewiews/review12.jpg')%>"
                   alt="Отзыв № 12"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Rewiews/review13.jpg"
+                  src="<%=require('./image/Rewiews/review13.jpg')%>"
                   alt="Отзыв № 13"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Rewiews/review14.jpg"
+                  src="<%=require('./image/Rewiews/review14.jpg')%>"
                   alt="Отзыв № 14"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Rewiews/review16.jpg"
+                  src="<%=require('./image/Rewiews/review16.jpg')%>"
                   alt="Отзыв № 16"
                 />
               </div>
               <div class="swiper-slide">
                 <img
                   class="education__diploms-item"
-                  src="./image/Rewiews/review17.jpg"
+                  src="<%=require('./image/Rewiews/review17.jpg')%>"
                   alt="Отзыв № 17"
                 />
               </div>
@@ -613,37 +624,42 @@
           target="_blank"
           >Записаться на консультацию</a
         >
-
         <nav class="footer__nav">
           <h3 class="footer__title">Социальные сети</h3>
           <a
             class="footer__icon"
             href="https://www.instagram.com/irdan_psy/"
             target="_blank"
-            ><img src="./image/Social-icon/Instagram_32px.png" alt="Instagram"
+            ><img
+              src="<%=require('./image/Social-icon/Instagram_32px.png')%>"
+              alt="Instagram"
           /></a>
           <a
             class="footer__icon"
             href="https://www.facebook.com/psy.academician/"
             target="_blank"
-            ><img src="./image/Social-icon/facebook_32px.png" alt="Facebook"
+            ><img
+              src="<%=require('./image/Social-icon/facebook_32px.png')%>"
+              alt="Facebook"
           /></a>
           <a
             class="footer__icon"
             href="https://vt.tiktok.com/ZSdyPUQHV/"
             target="_blank"
-            ><img src="./image/Social-icon/tikTok_32px.png" alt="Tik-Tok"
+            ><img
+              src="<%=require('./image/Social-icon/tikTok_32px.png')%>"
+              alt="Tik-Tok"
           /></a>
           <a
             class="footer__icon"
             href="https://www.youtube.com/channel/UCmuan8nmML-u91NEgtevegg/"
             target="_blank"
-            ><img src="./image/Social-icon/YouTube_32px.png" alt="YouTube"
+            ><img
+              src="<%=require('./image/Social-icon/YouTube_32px.png')%>"
+              alt="YouTube"
           /></a>
         </nav>
       </footer>
     </div>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="./index.js"></script>
   </body>
 </html>
