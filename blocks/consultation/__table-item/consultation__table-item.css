@@ -1,0 +1,7 @@
+.consultation__table-item * {
+  border: 5px solid rgb(255, 255, 255);
+  height: 95px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}

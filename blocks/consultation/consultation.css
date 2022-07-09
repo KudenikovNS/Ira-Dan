@@ -1,0 +1,4 @@
+.consultation {
+  display: flex;
+  flex-direction: column;
+}

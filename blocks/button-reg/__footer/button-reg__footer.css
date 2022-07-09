@@ -1,0 +1,11 @@
+.button-reg__footer {
+  margin: 10px auto;
+  width: 300px;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .button-reg__footer {
+    margin: 0 0;
+  }
+}

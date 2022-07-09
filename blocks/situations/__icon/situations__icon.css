@@ -1,0 +1,12 @@
+.situations__icon {
+  background-color: #fff;
+  width: 70px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .situations__icon {
+    width: 100px;
+  }
+}

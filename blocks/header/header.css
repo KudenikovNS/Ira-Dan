@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* .header {
+
+  
+  /*  max-width: 320px; */
+  /* position: relative; */
+/* } */ 
+
+/* @media screen and (min-width: 1024px) {
+    .header {
+      
+    }
+} */

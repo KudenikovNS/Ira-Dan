@@ -1,0 +1,16 @@
+.info__nav {
+  margin: 25px auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-around;
+  row-gap: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .info__nav {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+  }
+}

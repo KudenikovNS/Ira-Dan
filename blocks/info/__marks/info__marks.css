@@ -1,0 +1,11 @@
+.info__marks {
+  margin: 10px auto;
+  width: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .info__marks {
+    margin: 30px auto;
+    width: 60px;
+  }
+}

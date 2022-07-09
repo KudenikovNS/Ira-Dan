@@ -1,0 +1,11 @@
+.header__img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 320px;
+}
+
+/* .header__img {
+  position: relative;
+}
+ */

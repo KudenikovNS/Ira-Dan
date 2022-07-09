@@ -1,0 +1,17 @@
+.consultation__text {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  max-width: auto;
+  margin: 0 auto 0px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .consultation__text {
+    font-size: 27px;
+    line-height: 130%;
+  }
+}

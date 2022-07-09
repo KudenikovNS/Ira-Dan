@@ -1,0 +1,10 @@
+.info__post {
+  max-width: 320px;
+}
+
+@media screen and (min-width: 1024px) {
+  .info__post {
+    width: 416px;
+    height: 414px;
+  }
+}

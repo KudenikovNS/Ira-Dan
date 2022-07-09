@@ -5,39 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Nikita Kudenikov" />
-    <link rel="icon" href="./image/icon2.ico" />
-    <link rel="stylesheet" href="./css/swiper.css" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/buttom.css" />
+    <link rel="stylesheet" href="./index.css" />
     <title>Психолог Ирина Дан</title>
   </head>
-  <body>
+  <body class="page">
     <div class="page__container">
       <header class="header" id="header">
-        <nav class="nav">
-          <a class="nav__link" href="#header">Главная</a>
-          <a class="nav__link" href="#info">Обо мне</a>
-          <a class="nav__link close" href="#">Публикации</a>
-          <a class="nav__link" href="#situations">Направления</a>
-          <a class="nav__link" href="#consultation">Консультации</a>
-          <a class="nav__link" href="#footer">Контакты</a>
-        </nav>
-        <a href="https://t.me/irdan_psy/" class="button" target="_blank"
-          >Записаться на консультацию
-        </a>
-        <h1 class="header__title header_size">
-          Ирина Дан Психолог <br />
-          С заботой о вашем психологическом благополучии
-        </h1>
+        <img
+          class="header__img"
+          src="./image/Header/forHeader2.jpg"
+          alt="Обложка"
+        />
+        <div class="header__container">
+          <section class="top-nav">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-button-container" for="menu-toggle">
+              <div class="menu-button"></div>
+            </label>
+            <ul class="menu">
+              <li><a class="nav__link" href="#header">Главная</a></li>
+              <li><a class="nav__link" href="#info">Обо мне</a></li>
+              <li><a class="nav__link" href="#situations">Направления</a></li>
+              <li>
+                <a class="nav__link" href="#consultation">Консультации</a>
+              </li>
+              <li><a class="nav__link" href="#footer">Контакты</a></li>
+            </ul>
+          </section>
+          <a href="https://t.me/irdan_psy/" class="button-reg" target="_blank"
+            >Записаться на консультацию
+          </a>
+          <h1 class="title header__title">
+            Ирина Дан Психолог <br />
+            С заботой о вашем психологическом благополучии
+          </h1>
+        </div>
       </header>
       <main>
         <section class="info" id="info">
-          <img
-            class="info__marks-img"
-            src="./image/Info/marks.svg"
-            alt="Кавычки"
-          />
-          <div class="proba">
+          <img class="info__marks" src="./image/Info/marks.svg" alt="Кавычки" />
+          <div class="info__container">
             <p class="info__text">
               Приветствую Вас на моём сайте! Меня зовут Ирина Дан.
             </p>
@@ -71,8 +78,7 @@
           </div>
           <div class="info__video-img">
             <iframe
-              class="video"
-              height="315"
+              class="info__video"
               src="https://www.youtube.com/embed/X2Pf_O2dHFs?controls=0"
               title="YouTube video player"
               frameborder="0"
@@ -81,8 +87,7 @@
             >
             </iframe>
             <iframe
-              class="video"
-              height="315"
+              class="info__video"
               src="https://www.youtube.com/embed/TXW0nTA8Lzg?controls=0"
               title="YouTube video player"
               frameborder="0"
@@ -90,8 +95,7 @@
               allowfullscreen
             ></iframe>
             <iframe
-              class="video"
-              height="315"
+              class="info__video"
               src="https://www.youtube.com/embed/B6ZMCdu6anc?controls=0"
               title="YouTube video player"
               frameborder="0"
@@ -114,35 +118,32 @@
               class="info__post"
             />
           </div>
-          <nav class="info__nav-icon">
+          <nav class="info__nav">
             <a
-              class="navigation__icon"
+              class="info__icon"
               href="https://www.instagram.com/irdan_psy/"
               target="_blank"
               ><img
                 src="./image/Social-icon/Instagram_64px.png"
                 alt="Instagram"
             /></a>
-            <a
-              class="navigation__icon"
-              href="https://t.me/irdan_psy/"
-              target="_blank"
+            <a class="info__icon" href="https://t.me/irdan_psy/" target="_blank"
               ><img src="./image/Social-icon/Telegram_64px.png" alt="Telegram"
             /></a>
             <a
-              class="navigation__icon"
+              class="info__icon"
               href="https://www.facebook.com/psy.academician/"
               target="_blank"
               ><img src="./image/Social-icon/facebook_64px.png" alt="Facebook"
             /></a>
             <a
-              class="navigation__icon"
+              class="info__icon"
               href="https://vt.tiktok.com/ZSdyPUQHV/"
               target="_blank"
               ><img src="./image/Social-icon/tikTok_64px.png" alt="Tik-Tok"
             /></a>
             <a
-              class="navigation__icon"
+              class="info__icon"
               href="https://www.youtube.com/channel/UCmuan8nmML-u91NEgtevegg/"
               target="_blank"
               ><img src="./image/Social-icon/YouTube_64px.png" alt="YouTube"
@@ -225,18 +226,17 @@
             />
           </div>
         </section>
-
         <section class="consultation" id="consultation">
-          <h2 class="header__title consultation__title">
+          <h2 class="consultation__title">
             Психологическое консультирование онлайн
           </h2>
-          <p class="info__text consultation__text">
+          <p class="consultation__text">
             Сейчас мир очень интенсивно меняется, а вместе с ним меняются и наши
             потребности. Пандемия и мобильность внесли коррективы в работу
             психолога и клиента, выведя консультирование в онлайн формат, тем
             самым в некоторых аспектах значительно облегчив коммуникацию.
           </p>
-          <p class="info__text consultation__text">
+          <p class="consultation__text">
             Вот лишь некоторые плюсы онлайн-формата:
           </p>
           <ul class="consultation__text-list">
@@ -261,49 +261,44 @@
               полезные дела.
             </li>
           </ul>
-          <p class="info__text consultation__text consultation__size">
+          <p class="consultation__text consultation__margin">
             При всём этом качество работы сохраняется, результаты достигаются.
           </p>
           <div class="consultation__table">
             <div class="consultation__table-item">
-              <p class="consultation__table-text">
+              <p>
                 ИНДИВИДУАЛЬНОЕ КОНСУЛЬТИРОВАНИЕ И НЕМЕДИЦИНСКАЯ ПСИХОТЕРАПИЯ
               </p>
             </div>
             <div class="consultation__table-item">
-              <p class="consultation__table-text">
+              <p>
                 СЕМЕЙНОЕ И ПАРНОЕ КОНСУЛЬТИРОВАНИЕ И НЕМЕДИЦИНСКАЯ ПСИХОТЕРАПИЯ
               </p>
             </div>
             <div class="consultation__table-item">
-              <p class="consultation__table-text">
-                ИНДИВИДУАЛЬНАЯ КОНСУЛЬТАЦИЯ ПО ВОПРОСАМ ДЕТСТКОЙ ПСИХОЛОГИИ
-              </p>
+              <p>ИНДИВИДУАЛЬНАЯ КОНСУЛЬТАЦИЯ ПО ВОПРОСАМ ДЕТСТКОЙ ПСИХОЛОГИИ</p>
             </div>
             <div class="consultation__table-item">
-              <p class="consultation__table-text">
-                ТЕСТИРОВАНИЕ И ПСИХОДИАГНОСТИКА ВЗРОСЛЫХ И ПОДРОСТКОВ
-              </p>
+              <p>ТЕСТИРОВАНИЕ И ПСИХОДИАГНОСТИКА ВЗРОСЛЫХ И ПОДРОСТКОВ</p>
             </div>
             <div class="consultation__table-item">
-              <p class="consultation__table-text">
+              <p>
                 ГРУППОВАЯ РАБОТА (группы психологической поддержки и
                 психотерапевтические группы)
               </p>
             </div>
             <div class="consultation__table-item">
-              <p class="consultation__table-text">
+              <p>
                 СЕАНСЫ ТЕЛЕСНО-ОРИЕНТИРОВАННОЙ ПСИХОТЕРАПИИ (проводятся только
                 очно в зависимости от локации моего нахождения)
               </p>
             </div>
           </div>
         </section>
-
         <section class="education">
           <!-- Slider main container -->
           <div class="swiper">
-            <h2 class="education__title header__title">Образование</h2>
+            <h2 class="education__title title">Образование</h2>
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
@@ -467,11 +462,10 @@
             <div class="swiper-button-next"></div>
           </div>
         </section>
-
-        <section class="education">
+        <section class="rewiews">
           <!-- Slider main container -->
           <div class="swiper">
-            <h2 class="rewiews_title header__title">Отзывы моих клиентов</h2>
+            <h2 class="rewiews_title">Отзывы моих клиентов</h2>
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
@@ -581,31 +575,31 @@
         </section>
       </main>
       <footer class="footer" id="footer">
-        <div class="contacts">
-          <h3 class="contacts__title">Контакты</h3>
-          <div class="contacts__items">
-            <p class="contacts__item">
+        <div>
+          <h3 class="footer__title">Контакты</h3>
+          <div class="footer__items">
+            <p class="footer__item">
               Telegram:
               <a
-                class="contacts__item-link"
+                class="footer__item-link"
                 href="https://t.me/irdan_psy"
                 target="_blank"
                 >@irdan_psy</a
               >
             </p>
-            <p class="contacts__item">
+            <p class="footer__item">
               Email:
               <a
-                class="contacts__item-link"
+                class="footer__item-link"
                 href="mailto:psyacademician@gmail.com"
                 target="_blank"
                 >psyacademician@gmail.com</a
               >
             </p>
-            <p class="contacts__item">
+            <p class="footer__item">
               Skype:
               <a
-                class="contacts__item-link"
+                class="footer__item-link"
                 href="https://join.skype.com/invite/JK5agsqdE2aK"
                 target="_blank"
                 >Ирина Дан</a
@@ -615,33 +609,33 @@
         </div>
         <a
           href="https://t.me/irdan_psy/"
-          class="button button__div"
+          class="button-reg button-reg__footer"
           target="_blank"
           >Записаться на консультацию</a
         >
 
-        <nav class="navigation">
-          <h3 class="navigation__title">Социальные сети</h3>
+        <nav class="footer__nav">
+          <h3 class="footer__title">Социальные сети</h3>
           <a
-            class="navigation__icon"
+            class="footer__icon"
             href="https://www.instagram.com/irdan_psy/"
             target="_blank"
             ><img src="./image/Social-icon/Instagram_32px.png" alt="Instagram"
           /></a>
           <a
-            class="navigation__icon"
+            class="footer__icon"
             href="https://www.facebook.com/psy.academician/"
             target="_blank"
             ><img src="./image/Social-icon/facebook_32px.png" alt="Facebook"
           /></a>
           <a
-            class="navigation__icon"
+            class="footer__icon"
             href="https://vt.tiktok.com/ZSdyPUQHV/"
             target="_blank"
             ><img src="./image/Social-icon/tikTok_32px.png" alt="Tik-Tok"
           /></a>
           <a
-            class="navigation__icon"
+            class="footer__icon"
             href="https://www.youtube.com/channel/UCmuan8nmML-u91NEgtevegg/"
             target="_blank"
             ><img src="./image/Social-icon/YouTube_32px.png" alt="YouTube"
@@ -650,6 +644,6 @@
       </footer>
     </div>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="./JavaScript/index.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>

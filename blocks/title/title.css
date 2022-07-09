@@ -1,0 +1,16 @@
+.title {
+  font-family: "Garamond";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  max-width: 160px;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .title {
+    font-size: 54px;
+    line-height: 120%;
+    margin: 260px auto 145px;
+  }
+}

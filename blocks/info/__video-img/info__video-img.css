@@ -1,0 +1,14 @@
+.info__video-img {
+  display: grid;
+  grid-template-columns: repeat(1, 320px);
+  row-gap: 10px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .info__video-img {
+    display: grid;
+    grid-template-columns: repeat(3, 416px);
+    column-gap: 10px;
+  }
+}

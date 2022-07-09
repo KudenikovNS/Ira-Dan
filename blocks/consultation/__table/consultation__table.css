@@ -1,0 +1,12 @@
+.consultation__table {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .consultation__table {
+    grid-template-columns: repeat(3, 416px);
+  }
+}
