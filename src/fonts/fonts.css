@@ -1,0 +1,39 @@
+@font-face {
+  src: url(./CormorantGaramond-Bold.woff2) format("woff2"),
+    url(./CormorantGaramond-Bold.woff) format("woff");
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url(./CormorantGaramond-Regular.woff2) format("woff2"),
+    url(./CormorantGaramond-Regular.woff) format("woff");
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url(./CormorantGaramond-SemiBold.woff2) format("woff2"),
+    url(./CormorantGaramond-SemiBold.woff) format("woff");
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  src: url(./EBGaramond-Bold.woff2) format("woff2"),
+    url(./EBGaramond-Bold.woff) format("woff");
+  font-family: "Garamond";
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url(./EBGaramond-Regular.woff2) format("woff2"),
+    url(./EBGaramond-Regular.woff) format("woff");
+  font-family: "Garamond";
+  font-style: normal;
+  font-weight: 400;
+}
