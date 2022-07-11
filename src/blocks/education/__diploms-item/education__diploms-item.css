@@ -1,0 +1,13 @@
+/* .education__diploms-item {
+  width: 100%;
+  height: 100%;
+} */
+
+.swiper-slide {
+  width: 50%;
+  height: 400px;
+}
+
+.swiper-slide-size {
+  width: auto !important;
+}

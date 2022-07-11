@@ -4,9 +4,16 @@
   row-gap: 20px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 800px) {
   .situations {
-    display: grid;
+    grid-template-columns: repeat(2, 360px);
+    justify-content: space-evenly;
+    row-gap: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .situations {
     grid-template-columns: repeat(3, 416px);
     column-gap: 10px;
     row-gap: 40px;

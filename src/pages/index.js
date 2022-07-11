@@ -1,5 +1,22 @@
 import "../pages/index.css";
 
+/* Swiper */
+import Swiper from "swiper/bundle";
+import "swiper/css/bundle";
+const swiper = new Swiper(".swiper", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  slidesPerView: 3,
+  loop: true,
+  spaceBetween: 10,
+});
+
 const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]')),
   animationTime = 300,
   framesCount = 20;

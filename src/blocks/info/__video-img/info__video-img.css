@@ -8,7 +8,15 @@
 @media screen and (min-width: 1024px) {
   .info__video-img {
     display: grid;
-    grid-template-columns: repeat(3, 416px);
+    grid-template-columns: repeat(2, 500px);
+    column-gap: 10px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .info__video-img {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
     column-gap: 10px;
   }
 }

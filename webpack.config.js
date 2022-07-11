@@ -29,7 +29,7 @@ module.exports = {
         exclude: "/node_modules/",
       },
       {
-        test: /\.(png|svg|jpg|gif|woff(2)?|eot|ttf|otf)$/,
+        test: /\.(pdf|png|svg|jpg|gif|woff(2)?|eot|ttf|otf)$/,
         type: "asset/resource",
       },
       {
@@ -53,7 +53,14 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/index.html",
+      // Also generate a test.html
+      filename: "index.html",
+      template: "src/index.html",
+    }), // Generates default index.html
+    new HtmlWebpackPlugin({
+      // Also generate a test.html
+      filename: "about.html",
+      template: "src/about.html",
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),

@@ -2,9 +2,14 @@
   width: 100%;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 480px) {
   .info__post {
-    width: 416px;
-    height: 414px;
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .info__post {
+    width: 100%;
   }
 }

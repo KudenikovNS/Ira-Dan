@@ -8,6 +8,8 @@
 @import url(../blocks/button-reg/button-reg.css);
 @import url(../blocks/button-reg/__footer/button-reg__footer.css);
 
+/*  */
+
 /* Title */
 @import url(../blocks/title/title.css);
 
@@ -17,6 +19,9 @@
 
 /* Close */
 @import url(../blocks/close.css);
+
+/* Hamburger-menu */
+@import url(../blocks/hamburger-menu/hamburger-menu.css);
 
 /* Block: Header */
 @import url(../blocks/header/header.css);
@@ -33,6 +38,7 @@
 @import url(../blocks/info/__text/info__text.css);
 @import url(../blocks/info/__video-img/info__video-img.css);
 @import url(../blocks/info/__video/info__video.css);
+@import url(../blocks/info/__container-post/info__container-post.css);
 @import url(../blocks/info/__post/info__post.css);
 @import url(../blocks/info/__nav/info__nav.css);
 @import url(../blocks/info/__icon/info__icon.css);
@@ -52,18 +58,24 @@
 @import url(../blocks/consultation/__margin/consultation__margin.css);
 @import url(../blocks/consultation/__table/consultation__table.css);
 @import url(../blocks/consultation/__table-item/consultation__table-item.css);
+@import url(../blocks/consultation/__container-price-contract/consultation__container-price-contract.css);
+@import url(../blocks/consultation/__link/consultation__link.css);
 
 /* Block: Education */
 @import url(../blocks/education/__title/education__title.css);
+@import url(../blocks/education/__diploms-item/education__diploms-item.css);
 
 /* Block: Rewiews */
 @import url(../blocks/rewiews/__title/rewiews__title.css);
 
 /* Block: Footer */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__items/footer__items.css);
 @import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__item-link/footer__item-link.css);
 @import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__icon/footer__icon.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__copyright-link/footer__copyright-link.css);

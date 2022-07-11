@@ -16,10 +16,19 @@
   }
 }
 
+@media screen and (min-width: 800px) {
+  .header__title {
+    font-size: 40px;
+    line-height: 120%;
+    margin: 60px 0 0 80px;
+    width: 390px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .header__title {
     font-size: 54px;
-    line-height: 120%;
-    margin: 260px auto 145px;
+    width: 545px;
+    margin: 70px 0 0 80px;
   }
 }
