@@ -80,6 +80,14 @@ a.consultation__link:hover:before {
   a.consultation__link {
     width: 300px;
     height: 40px;
-    font-size: 30px;
+    font-size: 27px;
+    height: 60px;
+    line-height: 80%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  a.consultation__link:first-child {
+    padding-top: 15px;
   }
 }

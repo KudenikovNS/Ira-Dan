@@ -30,6 +30,7 @@
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
 
 /* Block: Info */
 @import url(../blocks/info/info.css);
@@ -52,6 +53,7 @@
 
 /* Block: Consultation */
 @import url(../blocks/consultation/consultation.css);
+@import url(../blocks/consultation/__link/_matgin/consultation__link_margin.css);
 @import url(../blocks/consultation/__title/consultation__title.css);
 @import url(../blocks/consultation/__text/consultation__text.css);
 @import url(../blocks/consultation/__text-list/consultation__text-list.css);
@@ -79,3 +81,7 @@
 @import url(../blocks/footer/__icon/footer__icon.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__copyright-link/footer__copyright-link.css);
+@import url(../blocks/footer/__copyright-img/footer__copyright-img.css);
+
+/* Modificators */
+@import url(../blocks/info/__text/_margin/info__test_margin.css);

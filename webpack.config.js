@@ -11,6 +11,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "main.js",
     publicPath: "",
+    assetModuleFilename: "assets/[name][ext]",
   },
   mode: "development",
   devServer: {
@@ -57,11 +58,6 @@ module.exports = {
       filename: "index.html",
       template: "src/index.html",
     }), // Generates default index.html
-    new HtmlWebpackPlugin({
-      // Also generate a test.html
-      filename: "about.html",
-      template: "src/about.html",
-    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
   ],
