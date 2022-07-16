@@ -38,7 +38,7 @@
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
   .button-reg {
     width: 300px;
     margin: 75px 0px 0 80px;
@@ -49,6 +49,6 @@
   .button-reg {
     font-size: 30px;
     width: 454px;
-    margin: 200px 0px 0 130px;
+    margin: 150px 0px 0 130px;
   }
 }

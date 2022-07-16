@@ -5,7 +5,7 @@
   row-gap: 10px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
   .consultation__table {
     grid-template-columns: repeat(2, 350px);
     justify-content: space-evenly;

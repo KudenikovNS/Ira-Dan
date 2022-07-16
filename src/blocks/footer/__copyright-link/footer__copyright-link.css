@@ -1,3 +1,10 @@
 .footer__copyright-link {
-  width: 120px;
+  width: 80px;
+  padding: 0 0px 0 5px;
+}
+
+@media screen and (min-width: 414px) {
+  .footer__copyright-link {
+    width: 120px;
+  }
 }

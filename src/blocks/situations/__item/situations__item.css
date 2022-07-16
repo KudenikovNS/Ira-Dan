@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
   .situations__item {
     display: flex;
     flex-direction: column;

@@ -1,7 +1,7 @@
 .header__img {
-  /*   background-repeat: no-repeat;
-  background-size: cover; */
-  /*  background-position: center; */
+  background: url("../../../images/forHeader2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100%;
   width: auto;
 }

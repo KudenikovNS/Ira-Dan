@@ -4,7 +4,15 @@
 
 @media screen and (min-width: 480px) {
   .info__post {
-    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 10px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .info__post {
+    width: 91%;
   }
 }
 

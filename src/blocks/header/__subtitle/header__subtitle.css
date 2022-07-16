@@ -12,16 +12,23 @@
   .header__subtitle {
     width: 200px;
     font-size: 20px;
-    margin: 40px 0px 0 25px;
+    margin: 40px 0px 25px 25px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__subtitle {
+    font-size: 38px;
+    line-height: 120%;
+    margin: 30px 0 80px 60px;
+    width: 390px;
   }
 }
 
 @media screen and (min-width: 800px) {
   .header__subtitle {
     font-size: 40px;
-    line-height: 120%;
-    margin: 60px 0 0 80px;
-    width: 390px;
+    margin: 60px 0 40px 80px;
   }
 }
 
@@ -29,6 +36,6 @@
   .header__subtitle {
     font-size: 45px;
     width: 545px;
-    margin: 40px 0 0 80px;
+    margin: 40px 0 150px 80px;
   }
 }

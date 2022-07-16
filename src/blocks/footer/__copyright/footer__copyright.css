@@ -2,10 +2,22 @@
   margin-top: 25px;
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 13px;
   color: #ffffff;
   padding: 0 0 5px 10px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+@media screen and (min-width: 414px) {
+  .footer__copyright {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .footer__copyright {
+    font-size: 26px;
+  }
 }
