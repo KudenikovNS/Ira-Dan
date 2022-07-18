@@ -1,0 +1,18 @@
+.header__education-img {
+  border-radius: 50%;
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .header__education-img {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header__education-img {
+    width: 200px;
+    height: 200px;
+  }
+}

@@ -1,0 +1,10 @@
+.header__education-title {
+  margin: 10px auto 0;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__education-title {
+    margin: 10px 0 0 0;
+  }
+}

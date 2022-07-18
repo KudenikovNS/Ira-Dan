@@ -7,6 +7,7 @@
 /* Button_reg */
 @import url(../blocks/button-reg/button-reg.css);
 @import url(../blocks/button-reg/__footer/button-reg__footer.css);
+@import url(../blocks/button-reg/education/education_btn_reg.css);
 
 /*  */
 
@@ -31,6 +32,12 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__education-container-info/header__education-container-info.css);
+
+/* Block: EDUCATION_Header*/
+@import url(../blocks/header/__education-container/header__education-container.css);
+@import url(../blocks/header/__education-img/header__education-img.css);
+@import url(../blocks/header/__education-title/header__education-title.css);
 
 /* Block: Info */
 @import url(../blocks/info/info.css);
@@ -66,8 +73,12 @@
 /* Block: Education */
 @import url(../blocks/education/education.css);
 @import url(../blocks/education/__title/education__title.css);
+@import url(../blocks/education/__education-title/education__education-title.css);
 @import url(../blocks/education/__items/education__items.css);
 @import url(../blocks/education/__diploms-item/education__diploms-item.css);
+@import url(../blocks/education/items1/items1.css);
+@import url(../blocks/education/__diploms-subtitle/education__diploms-subtitle.css);
+@import url(../blocks/education/__slide/education__slide.css);
 
 /* Block: Rewiews */
 @import url(../blocks/rewiews/__title/rewiews__title.css);
@@ -80,6 +91,7 @@
 @import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__item-link/footer__item-link.css);
 @import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__container-icon/footer__container-icon.css);
 @import url(../blocks/footer/__icon/footer__icon.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__copyright-link/footer__copyright-link.css);
@@ -87,3 +99,4 @@
 
 /* Modificators */
 @import url(../blocks/info/__text/_margin/info__test_margin.css);
+@import url(../blocks/education/__diploms-subtitle/_size/education__diploms-item_size.css);

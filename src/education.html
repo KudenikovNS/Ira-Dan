@@ -6,227 +6,337 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Nikita Kudenikov" />
     <title>Психолог Ирина Дан</title>
-    <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="page">
     <div class="page__container">
       <header class="header" id="header">
-        <div class="header__img">
-          <div class="header__container">
-            <section class="top-nav">
-              <input id="menu-toggle" type="checkbox" />
-              <label class="menu-button-container" for="menu-toggle">
-                <div class="menu-button"></div>
-              </label>
-              <ul class="menu header__nav">
-                <li>
-                  <a class="nav__link header__link" href="./index.html"
-                    >Главная <br />
-                    страница</a
-                  >
-                </li>
-                <li>
-                  <a class="nav__link header__link" href="#info"
-                    >Работа<br />
-                    психолога</a
-                  >
-                </li>
-                <li>
-                  <a class="nav__link header__link" href="./education.html"
-                    >Сведения об<br />
-                    образовании</a
-                  >
-                </li>
-                <li>
-                  <a class="nav__link header__link" href="#situations"
-                    >Психологическая<br />
-                    помощь</a
-                  >
-                </li>
-                <li>
-                  <a class="nav__link header__link" href="#consultation"
-                    >Психологические<br />
-                    консультации</a
-                  >
-                </li>
-                <li>
-                  <a class="nav__link header__link" href="#footer"
-                    >Мои<br />
-                    контакты</a
-                  >
-                </li>
-              </ul>
-            </section>
-            <a href="https://t.me/irdan_psy/" class="button-reg" target="_blank"
-              >Записаться на консультацию
-            </a>
-            <h1 class="header__title">Психолог Ирина Дан</h1>
-            <p class="header__subtitle">Помогаю изменить жизнь к лучшему</p>
+        <div class="header__container">
+          <section class="top-nav">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-button-container" for="menu-toggle">
+              <div class="menu-button"></div>
+            </label>
+            <ul class="menu header__nav">
+              <li>
+                <a class="nav__link header__link" href="./index.html"
+                  >Главная <br />
+                  страница</a
+                >
+              </li>
+              <li>
+                <a class="nav__link header__link" href="#info"
+                  >Работа<br />
+                  психолога</a
+                >
+              </li>
+              <li>
+                <a class="nav__link header__link" href="./education.html"
+                  >Образование и<br />
+                  квалификация</a
+                >
+              </li>
+              <li>
+                <a class="nav__link header__link" href="#situations"
+                  >Психологическая<br />
+                  помощь</a
+                >
+              </li>
+              <li>
+                <a class="nav__link header__link" href="#consultation"
+                  >Психологические<br />
+                  консультации</a
+                >
+              </li>
+              <li>
+                <a class="nav__link header__link" href="#footer"
+                  >Мои<br />
+                  контакты</a
+                >
+              </li>
+            </ul>
+          </section>
+          <div class="header__education-container">
+            <div class="header__education-container-info">
+              <a
+                href="https://t.me/irdan_psy/"
+                class="button-reg education_btn_reg"
+                target="_blank"
+                >Записаться на консультацию
+              </a>
+              <h1 class="header__title header__education-title">
+                Психолог Ирина Дан
+              </h1>
+            </div>
+            <img
+              class="header__education-img"
+              src="./images/forHeader2_education.jpg"
+              alt="Фотография"
+            />
           </div>
         </div>
       </header>
       <main>
         <section class="education">
-          <h2 class="education__title title">Образование</h2>
+          <h2 class="education__title title education__education-title">
+            Образование и квалификация
+          </h2>
           <div class="education__items">
-            <div class="swiper-slide swiper-slide-size">
-              <img
-                class="education__diploms-item"
-                src="./images/education1.jpg"
-                alt="Диплом № 1"
-              />
+            <div class="items1">
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education1.jpg"
+                  alt="Диплом № 1"
+                />
+                <p class="education__diploms-subtitle">
+                  МГПУ (диплом), Квалификация: Преподаватель педагогики и
+                  психологии
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education2.jpg"
+                  alt="Диплом № 2"
+                />
+                <p class="education__diploms-subtitle">
+                  РГГУ (диплом), Квалификация: Психология личности
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education3.jpg"
+                  alt="Диплом № 3"
+                />
+                <p class="education__diploms-subtitle">
+                  НАДПО (повышение квалификации), Работа психолога в русле
+                  когнитивно-поведенческой терапии с клиентами с симптомами
+                  зависимости
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education4.jpg"
+                  alt="Диплом № 4"
+                />
+                <p class="education__diploms-subtitle">
+                  НАДПО (повышение квалификации), Кризисные состояния и травмы:
+                  стратегии психологической помощи
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education5.jpg"
+                  alt="Диплом № 5"
+                />
+                <p class="education__diploms-subtitle">
+                  МИОО (повышение квалификации), Система работы с кадрами и
+                  научно-методическое сопровождение УВП
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education6.jpg"
+                  alt="Диплом № 6"
+                />
+                <p class="education__diploms-subtitle">
+                  МИОО (повышение квалификации), Психолого-педагогические основы
+                  воспитания детей
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education7.jpg"
+                  alt="Диплом № 7"
+                />
+                <p class="education__diploms-subtitle">
+                  СУЦ (повышение квалификации), Психодиагностика: современные
+                  приемы и методы в условиях реализации ФГОС
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education8.jpg"
+                  alt="Диплом № 8"
+                />
+                <p class="education__diploms-subtitle">
+                  ИПО (сертификация), Психология семьи
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education9.jpg"
+                  alt="Диплом № 9"
+                />
+                <p class="education__diploms-subtitle">
+                  АКПП (сертификация), Терапия пустого усилия
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education10.jpg"
+                  alt="Диплом № 10"
+                />
+                <p class="education__diploms-subtitle">
+                  ИКПК (сертификация), Участник научного пленума по
+                  консультативной психологии и неклинической психотерапии
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education11.jpg"
+                  alt="Диплом № 11"
+                />
+                <p class="education__diploms-subtitle">
+                  ИПО (сертификация), Психология стресса
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education12.jpg"
+                  alt="Диплом № 12"
+                />
+                <p class="education__diploms-subtitle">
+                  АКПП (сертификация), Инструменты логики для специалиста КПТ
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education13.png"
+                  alt="Диплом № 13"
+                />
+                <p class="education__diploms-subtitle">
+                  Аттитюд+ФПК (сертификация), Психомер, практика супервизии.
+                  Теория и практика. Обучение в интегративной модели
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education14.png"
+                  alt="Диплом № 14"
+                />
+                <p class="education__diploms-subtitle">
+                  Аттитюд+ФПК (сертификация), Психологические причины и
+                  профилактика неуспеваемости
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education15.png"
+                  alt="Диплом № 15"
+                />
+                <p class="education__diploms-subtitle">
+                  Аттитюд+ФПК (сертификация), Краткосрочное и долгосрочное
+                  консультирование и прочие виды психологических техник
+                </p>
+              </div>
             </div>
-            <div class="swiper-slide">
-              <img
-                class="education__diploms-item"
-                src="./images/education2.jpg"
-                alt="Диплом № 2"
-              />
+            <div class="items3">
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education16.jpg"
+                  alt="Диплом № 16"
+                />
+                <p class="education__diploms-subtitle">
+                  АКПП (сертификация), Участник форма для специалистов КПТ
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education17.jpg"
+                  alt="Диплом № 17"
+                />
+                <p class="education__diploms-subtitle">
+                  IEA, (сертификация) Cross-National Comparative Surveys
+                  (Сравнительные исследования: модели и методы)
+                </p>
+              </div>
             </div>
-            <div class="swiper-slide">
-              <img
-                class="education__diploms-item"
-                src="./images/education3.jpg"
-                alt="Диплом № 3"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="education__diploms-item"
-                src="./images/education4.jpg"
-                alt="Диплом № 4"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="education__diploms-item"
-                src="./images/education5.jpg"
-                alt="Диплом № 5"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="education__diploms-item"
-                src="./images/education6.jpg"
-                alt="Диплом № 6"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="education__diploms-item"
-                src="./images/education7.jpg"
-                alt="Диплом № 7"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="education__diploms-item"
-                src="./images/education8.jpg"
-                alt="Диплом № 8"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="education__diploms-item"
-                src="./images/education9.jpg"
-                alt="Диплом № 9"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="education__diploms-item"
-                src="./images/education10.jpg"
-                alt="Диплом № 10"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="education__diploms-item"
-                src="./images/education11.jpg"
-                alt="Диплом № 11"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="education__diploms-item"
-                src="./images/education12.jpg"
-                alt="Диплом № 12"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="education__diploms-item"
-                src="./images/education13.png"
-                alt="Диплом № 13"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="education__diploms-item"
-                src="./images/education14.png"
-                alt="Диплом № 14"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="education__diploms-item"
-                src="./images/education15.png"
-                alt="Диплом № 15"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="education__diploms-item"
-                src="./images/education16.jpg"
-                alt="Диплом № 16"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="education__diploms-item"
-                src="./images/education17.jpg"
-                alt="Диплом № 17"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                class="education__diploms-item"
-                src="./images/education18.jpg"
-                alt="Диплом № 18"
-              />
-            </div>
-            <div class="swiper-slide swiper-slide-size">
-              <img
-                class="education__diploms-item"
-                src="./images/education19.jpg"
-                alt="Диплом № 19"
-              />
-            </div>
-            <div class="swiper-slide swiper-slide-size">
-              <img
-                class="education__diploms-item"
-                src="./images/education20.jpg"
-                alt="Диплом № 20"
-              />
-            </div>
-            <div class="swiper-slide swiper-slide-size">
-              <img
-                class="education__diploms-item"
-                src="./images/education21.jpg"
-                alt="Диплом № 21"
-              />
-            </div>
-            <div class="swiper-slide swiper-slide-size">
-              <img
-                class="education__diploms-item"
-                src="./images/education22.jpg"
-                alt="Диплом № 22"
-              />
+
+            <div class="items2">
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education18.jpg"
+                  alt="Диплом № 18"
+                />
+                <p
+                  class="education__diploms-subtitle education__diploms-item_size"
+                >
+                  Институт Психоанализа (сертификация), Психодрама. Испытание
+                  временем.
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education19.jpg"
+                  alt="Диплом № 19"
+                />
+                <p
+                  class="education__diploms-subtitle education__diploms-item_size"
+                >
+                  ЦДООП Метафора (сертификация), ПТСР как следствие детской
+                  травмы. Мультимодальный подход в работе с клиентами
+                  перенесшими насилие
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education20.jpg"
+                  alt="Диплом № 20"
+                />
+                <p
+                  class="education__diploms-subtitle education__diploms-item_size"
+                >
+                  ЦДООП Метафора (сертификация), Невроз и травма. Причины и
+                  психотерапия
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education21.jpg"
+                  alt="Диплом № 21"
+                />
+                <p
+                  class="education__diploms-subtitle education__diploms-item_size"
+                >
+                  ЦДООП Метафора (сертификация), Психологическая помощь в
+                  ситуации развода
+                </p>
+              </div>
+              <div class="education__slide">
+                <img
+                  class="education__diploms-item"
+                  src="./images/education22.jpg"
+                  alt="Диплом № 22"
+                />
+                <p
+                  class="education__diploms-subtitle education__diploms-item_size"
+                >
+                  ЦДООП Метафора (сертификация), Интегративная психотерапия
+                  неврозов и панических атак
+                </p>
+              </div>
             </div>
           </div>
-          <div class="swiper-pagination"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
         </section>
       </main>
       <footer class="footer" id="footer">
@@ -269,33 +379,47 @@
             target="_blank"
             >Записаться на консультацию</a
           >
-          <nav class="footer__nav">
+          <div class="footer__nav">
             <h3 class="footer__title">Социальные сети</h3>
-            <a
-              class="footer__icon"
-              href="https://www.instagram.com/irdan_psy/"
-              target="_blank"
-              ><img src="./images/Instagram_32px.png" alt="Instagram"
-            /></a>
-            <a
-              class="footer__icon"
-              href="https://www.facebook.com/psy.academician/"
-              target="_blank"
-              ><img src="./images/facebook_32px.png" alt="Facebook"
-            /></a>
-            <a
-              class="footer__icon"
-              href="https://vt.tiktok.com/ZSdyPUQHV/"
-              target="_blank"
-              ><img src="./images/tikTok_32px.png" alt="Tik-Tok"
-            /></a>
-            <a
-              class="footer__icon"
-              href="https://www.youtube.com/channel/UCmuan8nmML-u91NEgtevegg/"
-              target="_blank"
-              ><img src="./images/YouTube_32px.png" alt="YouTube"
-            /></a>
-          </nav>
+            <nav class="footer__container-icon">
+              <a
+                class="footer__icon"
+                href="https://www.instagram.com/irdan_psy/"
+                target="_blank"
+                ><img src="./images/Instagram_32px.png" alt="Instagram"
+              /></a>
+              <a
+                class="footer__icon"
+                href="https://www.linkedin.com/in/irdan-psy/"
+                target="_blank"
+                ><img src="./images/linkedin_32px.png" alt="Linkedin"
+              /></a>
+              <a
+                class="footer__icon"
+                href="https://www.facebook.com/psy.academician/"
+                target="_blank"
+                ><img src="./images/facebook_32px.png" alt="Facebook"
+              /></a>
+              <a
+                class="footer__icon"
+                href="https://vt.tiktok.com/ZSdyPUQHV/"
+                target="_blank"
+                ><img src="./images/tikTok_32px.png" alt="Tik-Tok"
+              /></a>
+              <a
+                class="footer__icon"
+                href="https://www.youtube.com/channel/UCmuan8nmML-u91NEgtevegg/"
+                target="_blank"
+                ><img src="./images/YouTube_32px.png" alt="YouTube"
+              /></a>
+              <a
+                class="footer__icon"
+                href="https://www.b17.ru/psy_academician/"
+                target="_blank"
+                ><img src="./images/b17_32px.png" alt="b17"
+              /></a>
+            </nav>
+          </div>
         </div>
         <p class="footer__copyright">
           &copy; 2022 сайт сделан by_
@@ -311,6 +435,5 @@
         </p>
       </footer>
     </div>
-    <script src="./pages/index.js"></script>
   </body>
 </html>
