@@ -1,3 +1,4 @@
 .consultation__container-price-contract {
   display: flex;
+  gap: 2px;
 }

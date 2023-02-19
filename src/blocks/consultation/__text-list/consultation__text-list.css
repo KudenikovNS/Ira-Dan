@@ -52,16 +52,6 @@ ol li:last-child:before {
   background: #fff;
 }
 
-/* ul:before {
-  content: "";
-  position: absolute;
-  top: 15px;
-  bottom: 15px;
-  left: -30px;
-  width: 1px;
-  border-left: 1px solid #ef6780;
-} */
-
 @media screen and (min-width: 799px) {
   ul:before {
     border-left: none;

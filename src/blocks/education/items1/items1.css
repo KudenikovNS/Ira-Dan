@@ -23,7 +23,6 @@
 .items3 {
   display: flex;
   flex-direction: column;
-  /*   justify-content: space-evenly; */
   margin-top: 10px;
   row-gap: 10px;
 }

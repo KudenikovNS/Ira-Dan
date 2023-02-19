@@ -15,6 +15,6 @@
 
 @media screen and (min-width: 1280px) {
   .consultation__table {
-    grid-template-columns: repeat(3, 416px);
+    grid-template-columns: repeat(2, 600px);
   }
 }

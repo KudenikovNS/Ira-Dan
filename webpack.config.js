@@ -63,6 +63,11 @@ module.exports = {
       filename: "education.html",
       template: "src/education.html",
     }), // Generates default index.html
+    new HtmlWebpackPlugin({
+      // Also generate a test.html
+      filename: "reviews.html",
+      template: "src/reviews.html",
+    }), // Generates default index.html
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
   ],
