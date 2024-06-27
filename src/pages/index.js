@@ -1,4 +1,5 @@
-import "../pages/index.css";
+import "../pages/reset.css";
+import "../pages/main.css";
 
 const smoothLinks = document.querySelectorAll('a[href^="#"]');
 for (let smoothLink of smoothLinks) {

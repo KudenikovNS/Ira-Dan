@@ -1,9 +1,0 @@
-.consultation__table-item {
-  border: 5px solid rgb(255, 255, 255);
-  height: 115px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
