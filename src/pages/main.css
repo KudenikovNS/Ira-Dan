@@ -175,7 +175,7 @@ legend {
 @media screen and (min-width: 1024px) {
   .button-reg {
     font-size: 30px;
-    margin: 150px 0 0 130px;
+    margin: 50px 0 0 130px;
     width: 454px;
   }
 }
@@ -432,14 +432,18 @@ a {
   background: url(../images/forHeader2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
-  width: auto;
+  max-width: 100%;
+  height: auto;
+/*   height: 100%;
+  width: auto; */
 }
-@media screen and (min-width: 1024px) {
+
+/* @media screen and (min-width: 1024px) {
   .header__img {
-    max-height: 825px;
+    max-height: 700px;
   }
-}
+} */
+
 .header__nav {
   align-items: center;
   display: flex;
@@ -528,44 +532,94 @@ a {
 @media screen and (min-width: 1024px) {
   .header__title {
     font-size: 54px;
+    margin: 40px 0 0 80px;
+    width: 545px;
+  }
+}
+
+.header_text {
+  font-family: Garamond;
+  font-style: normal;
+  font-weight: 700;
+  margin: 5px 0 15px 10px;
+  text-align: center;
+  width: 160px;
+  background-color: #967d7d;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 10px;
+}
+@media screen and (min-width: 414px) {
+  .header_text {
+    margin: 40px 0 0 25px;
+    width: 200px;
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header_text {
+    line-height: 120%;
+    margin: 30px 0 0 60px;
+    width: 390px;
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .header_text {
+    font-size: 15px;
+    margin: 60px 0 0 80px;
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header_text {
+    font-size: 17px;
     margin: 70px 0 0 80px;
     width: 545px;
   }
 }
+
+.header_text_link {
+  color: #0088cc;
+  background-color: white;
+  border-radius: 20px;
+  padding: 0 5px;
+}
+
 .header__subtitle {
   font-family: Garamond;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
-  margin: 5px 0 15px 10px;
+  /* margin: 5px 0 15px 10px; */
   text-align: center;
   width: 160px;
 }
 @media screen and (min-width: 414px) {
   .header__subtitle {
     font-size: 20px;
-    margin: 40px 0 25px 25px;
+    /* margin: 40px 0 25px 25px; */
     width: 200px;
   }
 }
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .header__subtitle {
     font-size: 38px;
     line-height: 120%;
-    margin: 30px 0 80px 60px;
+     margin: 30px 0 80px 60px;
     width: 390px;
   }
-}
+} */
 @media screen and (min-width: 800px) {
   .header__subtitle {
     font-size: 40px;
-    margin: 60px 0 40px 80px;
+    /* margin: 60px 0 40px 80px; */
   }
 }
 @media screen and (min-width: 1024px) {
   .header__subtitle {
     font-size: 45px;
-    margin: 40px 0 150px 80px;
+    margin: 40px 0 70px 80px;
     width: 545px;
   }
 }
